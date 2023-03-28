@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.head h1 {
+  font-family: calibri;
+}
+
+.head h2 {
+  font-size: 2rem;
+  font-family: calibri;
+}
+
+#table {
+  width: 80%;
+  margin: auto;
+  border: 2px solid aqua;
+}
+
+#table thead {
+  color: white;
+  background-color: aqua;
+  font-size: 1.2rem;
+}
+
+#table thead>tr th {
+  padding: .8rem;
+}
+
+#table tbody td {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.fas {
+  cursor: pointer;
+  color: red;
+}
